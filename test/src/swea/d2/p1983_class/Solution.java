@@ -1,10 +1,9 @@
-package swea.d2.p1983;
+package swea.d2.p1983_class;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
-import java.util.Comparator;
 import java.util.StringTokenizer;
 
 public class Solution {
