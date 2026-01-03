@@ -34,9 +34,9 @@ public class Solution {
 
         for (int i = 1; i <= (s.length() / 2); i++) {
             String a1 = s.substring(0, i);
-            String a2 = s.substring(i + 1, 2 * i + 1);
+            String a2 = s.substring(i, 2 * i);
             if (a1.equals(a2)) {
-                return i+1;
+                return i;
             }
 
         }
