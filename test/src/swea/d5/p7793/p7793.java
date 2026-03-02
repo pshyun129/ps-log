@@ -22,7 +22,6 @@ public class p7793 {
         if (arr[x][y] == 2) {
             can = true;
             min = Math.min(min, move);
-
             return;
         }
 
