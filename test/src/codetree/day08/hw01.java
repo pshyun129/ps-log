@@ -34,14 +34,14 @@ public class hw01 {
             list[i] = new ArrayList<>();
         }
 
-        for (int i = 0; i < M; i++) {
-            st = new StringTokenizer(br.readLine());
-            int a = st.nextToken().charAt(0) - 'a';
-            int b = st.nextToken().charAt(0) - 'a';
-
-            list[a].add(b)
-
-        }
+//        for (int i = 0; i < M; i++) {
+//            st = new StringTokenizer(br.readLine());
+//            int a = st.nextToken().charAt(0) - 'a';
+//            int b = st.nextToken().charAt(0) - 'a';
+//
+//            list[a].add(b)
+//
+//        }
 
 
     }
